@@ -4,5 +4,5 @@ metadata:
   name: "import-demo-app"     
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: development
   owner: "group:default/unset-owner"    
