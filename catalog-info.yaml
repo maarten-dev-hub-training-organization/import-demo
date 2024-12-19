@@ -1,7 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "import-demo-app"     
+  name: "import-demo-app"
+  annotations:
+    github.com/project-slug: maarten-dev-hub-training-organization/import-demo
 spec:
   type: service
   lifecycle: development
